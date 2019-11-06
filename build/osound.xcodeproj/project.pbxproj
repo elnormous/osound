@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		30F15118236BD17D00536199 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F15117236BD17D00536199 /* main.cpp */; };
+		30F46DAA2372516400884EED /* Audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F46DA82372516400884EED /* Audio.cpp */; };
+		30F46DAB2372516400884EED /* Audio.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 30F46DA92372516400884EED /* Audio.hpp */; };
+		30F46DAE237251E500884EED /* AudioDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F46DAC237251E500884EED /* AudioDevice.cpp */; };
+		30F46DAF237251E500884EED /* AudioDevice.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 30F46DAD237251E500884EED /* AudioDevice.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30F150EA236BD08700536199 /* libosound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libosound.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F15117236BD17D00536199 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		30F46DA82372516400884EED /* Audio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Audio.cpp; sourceTree = "<group>"; };
+		30F46DA92372516400884EED /* Audio.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Audio.hpp; sourceTree = "<group>"; };
+		30F46DAC237251E500884EED /* AudioDevice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AudioDevice.cpp; sourceTree = "<group>"; };
+		30F46DAD237251E500884EED /* AudioDevice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AudioDevice.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				30F15117236BD17D00536199 /* main.cpp */,
+				30F46DA82372516400884EED /* Audio.cpp */,
+				30F46DA92372516400884EED /* Audio.hpp */,
+				30F46DAC237251E500884EED /* AudioDevice.cpp */,
+				30F46DAD237251E500884EED /* AudioDevice.hpp */,
 			);
 			name = osound;
 			path = ../osound;
@@ -58,6 +70,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F46DAB2372516400884EED /* Audio.hpp in Headers */,
+				30F46DAF237251E500884EED /* AudioDevice.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F46DAA2372516400884EED /* Audio.cpp in Sources */,
 				30F15118236BD17D00536199 /* main.cpp in Sources */,
+				30F46DAE237251E500884EED /* AudioDevice.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

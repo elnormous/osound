@@ -1,4 +1,4 @@
-#include "AudioDeviceCA.hpp"
+#include "CAAudioDevice.hpp"
 
 namespace osound
 {

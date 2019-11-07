@@ -1,5 +1,5 @@
-#ifndef AUDIODEVICECA_hpp
-#define AUDIODEVICECA_hpp
+#ifndef CAAUDIODEVICE_HPP
+#define CAAUDIODEVICE_HPP
 
 namespace osound
 {
@@ -12,4 +12,4 @@ namespace osound
     }
 }
 
-#endif // AUDIODEVICECA_hpp
+#endif // CAAUDIODEVICE_HPP

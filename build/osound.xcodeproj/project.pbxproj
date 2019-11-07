@@ -11,8 +11,8 @@
 		30F46DAB2372516400884EED /* Audio.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 30F46DA92372516400884EED /* Audio.hpp */; };
 		30F46DAE237251E500884EED /* AudioDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F46DAC237251E500884EED /* AudioDevice.cpp */; };
 		30F46DAF237251E500884EED /* AudioDevice.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 30F46DAD237251E500884EED /* AudioDevice.hpp */; };
-		30F46DB323726BDC00884EED /* AudioDeviceCA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F46DB123726BDC00884EED /* AudioDeviceCA.cpp */; };
-		30F46DB423726BDC00884EED /* AudioDeviceCA.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 30F46DB223726BDC00884EED /* AudioDeviceCA.hpp */; };
+		30F46DB323726BDC00884EED /* CAAudioDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F46DB123726BDC00884EED /* CAAudioDevice.cpp */; };
+		30F46DB423726BDC00884EED /* CAAudioDevice.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 30F46DB223726BDC00884EED /* CAAudioDevice.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +21,9 @@
 		30F46DA92372516400884EED /* Audio.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Audio.hpp; sourceTree = "<group>"; };
 		30F46DAC237251E500884EED /* AudioDevice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AudioDevice.cpp; sourceTree = "<group>"; };
 		30F46DAD237251E500884EED /* AudioDevice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AudioDevice.hpp; sourceTree = "<group>"; };
-		30F46DB123726BDC00884EED /* AudioDeviceCA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AudioDeviceCA.cpp; sourceTree = "<group>"; };
-		30F46DB223726BDC00884EED /* AudioDeviceCA.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AudioDeviceCA.hpp; sourceTree = "<group>"; };
+		30F46DB123726BDC00884EED /* CAAudioDevice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioDevice.cpp; sourceTree = "<group>"; };
+		30F46DB223726BDC00884EED /* CAAudioDevice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CAAudioDevice.hpp; sourceTree = "<group>"; };
+		30F46DB52374A93000884EED /* Driver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Driver.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +56,12 @@
 		30F15116236BD15E00536199 /* osound */ = {
 			isa = PBXGroup;
 			children = (
-				30F46DB023726BC800884EED /* coreaudio */,
 				30F46DA82372516400884EED /* Audio.cpp */,
 				30F46DA92372516400884EED /* Audio.hpp */,
 				30F46DAC237251E500884EED /* AudioDevice.cpp */,
 				30F46DAD237251E500884EED /* AudioDevice.hpp */,
+				30F46DB023726BC800884EED /* coreaudio */,
+				30F46DB52374A93000884EED /* Driver.hpp */,
 			);
 			name = osound;
 			path = ../osound;
@@ -68,8 +70,8 @@
 		30F46DB023726BC800884EED /* coreaudio */ = {
 			isa = PBXGroup;
 			children = (
-				30F46DB123726BDC00884EED /* AudioDeviceCA.cpp */,
-				30F46DB223726BDC00884EED /* AudioDeviceCA.hpp */,
+				30F46DB123726BDC00884EED /* CAAudioDevice.cpp */,
+				30F46DB223726BDC00884EED /* CAAudioDevice.hpp */,
 			);
 			path = coreaudio;
 			sourceTree = "<group>";
@@ -83,7 +85,7 @@
 			files = (
 				30F46DAB2372516400884EED /* Audio.hpp in Headers */,
 				30F46DAF237251E500884EED /* AudioDevice.hpp in Headers */,
-				30F46DB423726BDC00884EED /* AudioDeviceCA.hpp in Headers */,
+				30F46DB423726BDC00884EED /* CAAudioDevice.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30F46DB323726BDC00884EED /* AudioDeviceCA.cpp in Sources */,
+				30F46DB323726BDC00884EED /* CAAudioDevice.cpp in Sources */,
 				30F46DAA2372516400884EED /* Audio.cpp in Sources */,
 				30F46DAE237251E500884EED /* AudioDevice.cpp in Sources */,
 			);

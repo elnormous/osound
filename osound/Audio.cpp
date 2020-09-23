@@ -5,6 +5,5 @@ namespace osound
 {
     Audio::Audio()
     {
-        
     }
 }

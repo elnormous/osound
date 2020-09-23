@@ -5,14 +5,14 @@ namespace osound
 {
     enum class Driver
     {
-        Empty,
-        OpenAL,
-        DirectSound,
-        XAudio2,
-        OpenSL,
-        CoreAudio,
-        ALSA,
-        WASAPI
+        none,
+        openAL,
+        directSound,
+        xAudio2,
+        openSL,
+        coreAudio,
+        alsa,
+        wasapi
     };
 }
 

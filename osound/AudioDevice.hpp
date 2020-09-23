@@ -30,7 +30,7 @@ namespace osound
 
         Driver driver;
 
-        SampleFormat sampleFormat = SampleFormat::SignedInt16;
+        SampleFormat sampleFormat = SampleFormat::signedInt16;
         uint32_t bufferSize; // in frames
         uint32_t sampleRate;
         uint16_t channels;

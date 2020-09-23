@@ -5,9 +5,9 @@ namespace osound
 {
     enum class SampleFormat
     {
-        SignedInt16,
-        Float32
+        signedInt16,
+        float32
     };
-} // namespace ouzel
+}
 
 #endif // OUZEL_AUDIO_SAMPLEFORMAT_HPP

@@ -76,7 +76,7 @@ namespace osound
                                                           uint16_t channels,
                                                           uint32_t sampleRate,
                                                           std::vector<float>& samples)>& initDataGetter):
-            osound::AudioDevice(Driver::CoreAudio, initBufferSize, initSampleRate, initChannels, initDataGetter)
+            osound::AudioDevice(Driver::coreAudio, initBufferSize, initSampleRate, initChannels, initDataGetter)
         {
             OSStatus result;
 
@@ -232,7 +232,7 @@ namespace osound
             streamDescription.mBytesPerPacket = streamDescription.mBytesPerFrame * streamDescription.mFramesPerPacket;
             streamDescription.mReserved = 0;
 
-            sampleFormat = SampleFormat::Float32;
+            sampleFormat = SampleFormat::float32;
             sampleSize = sizeof(float);
 
             if ((result = AudioUnitSetProperty(audioUnit,
@@ -251,7 +251,7 @@ namespace osound
                                                    kAudioUnitScope_Input, bus, &streamDescription, sizeof(streamDescription))) != noErr)
                     throw std::system_error(result, errorCategory, "Failed to set CoreAudio unit stream format");
 
-                sampleFormat = SampleFormat::SignedInt16;
+                sampleFormat = SampleFormat::signedInt16;
                 sampleSize = sizeof(int16_t);
             }
 

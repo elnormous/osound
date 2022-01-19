@@ -33,7 +33,7 @@
 		30F15105236BD10C00536199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30F15106236BD10C00536199 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30F15108236BD10C00536199 /* samples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = samples.entitlements; sourceTree = "<group>"; };
-		30F1510E236BD14300536199 /* osound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = osound.xcodeproj; path = ../build/osound.xcodeproj; sourceTree = "<group>"; };
+		30F1510E236BD14300536199 /* osound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = osound.xcodeproj; path = ../osound/osound.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

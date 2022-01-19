@@ -1,7 +1,7 @@
-build/osound.xcodeproj/project.xcworkspace/xcshareddata
-build/osound.xcodeproj/project.xcworkspace/xcuserdata
-build/osound.xcodeproj/xcshareddata
-build/osound.xcodeproj/xcuserdata
+osound/osound.xcodeproj/project.xcworkspace/xcshareddata
+osound/osound.xcodeproj/project.xcworkspace/xcuserdata
+osound/osound.xcodeproj/xcshareddata
+osound/osound.xcodeproj/xcuserdata
 samples/samples.xcodeproj/project.xcworkspace/xcshareddata
 samples/samples.xcodeproj/project.xcworkspace/xcuserdata
 samples/samples.xcodeproj/xcshareddata

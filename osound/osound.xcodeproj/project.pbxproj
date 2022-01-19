@@ -70,7 +70,6 @@
 				3000BECA2798700700CA7277 /* Sound.hpp */,
 			);
 			name = osound;
-			path = ../osound;
 			sourceTree = "<group>";
 		};
 		30F46DB023726BC800884EED /* coreaudio */ = {

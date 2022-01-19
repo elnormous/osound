@@ -6,10 +6,10 @@ namespace osound
     enum class Driver
     {
         none,
-        openAL,
+        openAl,
         directSound,
         xAudio2,
-        openSL,
+        openSl,
         coreAudio,
         alsa,
         wasapi

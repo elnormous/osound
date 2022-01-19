@@ -74,7 +74,7 @@ namespace osound::coreaudio
                                                       uint16_t channels,
                                                       uint32_t sampleRate,
                                                       std::vector<float>& samples)>& initDataGetter):
-        osound::AudioDevice(Driver::coreAudio, initBufferSize, initSampleRate, initChannels, initDataGetter)
+        osound::AudioDevice{Driver::coreAudio, initBufferSize, initSampleRate, initChannels, initDataGetter}
     {
         OSStatus result;
 

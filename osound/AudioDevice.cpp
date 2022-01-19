@@ -10,11 +10,11 @@ namespace osound
                                                       uint16_t channels,
                                                       uint32_t sampleRate,
                                                       std::vector<float>& samples)>& initDataGetter):
-        driver(initDriver),
-        bufferSize(initBufferSize),
-        sampleRate(initSampleRate),
-        channels((initChannels != 0) ? initChannels : 2), // TODO: leave it zero and let subclasses decide the number of channels
-        dataGetter(initDataGetter)
+        driver{initDriver},
+        bufferSize{initBufferSize},
+        sampleRate{initSampleRate},
+        channels{(initChannels != 0) ? initChannels : static_cast<std::uint16_t>(2U)}, // TODO: leave it zero and let subclasses decide the number of channels
+        dataGetter{initDataGetter}
     {
     }
 }

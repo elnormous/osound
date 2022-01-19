@@ -16,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3000BEC92798700700CA7277 /* Sound.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sound.cpp; sourceTree = "<group>"; };
+		3000BECA2798700700CA7277 /* Sound.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sound.hpp; sourceTree = "<group>"; };
 		30F150EA236BD08700536199 /* libosound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libosound.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F46DA82372516400884EED /* Audio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Audio.cpp; sourceTree = "<group>"; };
 		30F46DA92372516400884EED /* Audio.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Audio.hpp; sourceTree = "<group>"; };
@@ -64,6 +66,8 @@
 				30F46DB023726BC800884EED /* coreaudio */,
 				30F46DB52374A93000884EED /* Driver.hpp */,
 				30F46DB62374F99800884EED /* SampleFormat.hpp */,
+				3000BEC92798700700CA7277 /* Sound.cpp */,
+				3000BECA2798700700CA7277 /* Sound.hpp */,
 			);
 			name = osound;
 			path = ../osound;

@@ -1,5 +1,5 @@
-#ifndef DRIVER_HPP
-#define DRIVER_HPP
+#ifndef OSOUND_DRIVER_HPP
+#define OSOUND_DRIVER_HPP
 
 namespace osound
 {
@@ -16,4 +16,4 @@ namespace osound
     };
 }
 
-#endif // DRIVER_HPP
+#endif // OSOUND_DRIVER_HPP

@@ -1,5 +1,5 @@
-#ifndef SAMPLEFORMAT_HPP
-#define SAMPLEFORMAT_HPP
+#ifndef OSOUND_SAMPLEFORMAT_HPP
+#define OSOUND_SAMPLEFORMAT_HPP
 
 namespace osound
 {
@@ -10,4 +10,4 @@ namespace osound
     };
 }
 
-#endif // OUZEL_AUDIO_SAMPLEFORMAT_HPP
+#endif // OSOUND_SAMPLEFORMAT_HPP

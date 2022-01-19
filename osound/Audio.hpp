@@ -1,5 +1,5 @@
-#ifndef AUDIO_HPP
-#define AUDIO_HPP
+#ifndef OSOUND_AUDIO_HPP
+#define OSOUND_AUDIO_HPP
 
 #include <memory>
 
@@ -17,4 +17,4 @@ namespace osound
     };
 }
 
-#endif // AUDIO_HPP
+#endif // OSOUND_AUDIO_HPP

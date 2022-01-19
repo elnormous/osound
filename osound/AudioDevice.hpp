@@ -1,5 +1,5 @@
-#ifndef AUDIODEVICE_HPP
-#define AUDIODEVICE_HPP
+#ifndef OSOUND_AUDIODEVICE_HPP
+#define OSOUND_AUDIODEVICE_HPP
 
 #include <cstdint>
 #include <functional>
@@ -41,4 +41,4 @@ namespace osound
     };
 }
 
-#endif // AUDIODEVICE_HPP
+#endif // OSOUND_AUDIODEVICE_HPP

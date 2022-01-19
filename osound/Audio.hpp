@@ -2,11 +2,10 @@
 #define OSOUND_AUDIO_HPP
 
 #include <memory>
+#include "AudioDevice.hpp"
 
 namespace osound
 {
-    class AudioDevice;
-
     class Audio
     {
     public:

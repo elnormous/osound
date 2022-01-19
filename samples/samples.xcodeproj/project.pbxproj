@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30F150FF236BD10900536199 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F150FE236BD10900536199 /* AppDelegate.m */; };
+		30F150FF236BD10900536199 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30F150FE236BD10900536199 /* AppDelegate.mm */; };
 		30F15101236BD10C00536199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F15100236BD10C00536199 /* Assets.xcassets */; };
 		30F15104236BD10C00536199 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F15102236BD10C00536199 /* MainMenu.xib */; };
 		30F15107236BD10C00536199 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F15106236BD10C00536199 /* main.m */; };
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		30F150FA236BD10900536199 /* samples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F150FD236BD10900536199 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		30F150FE236BD10900536199 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30F150FE236BD10900536199 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		30F15100236BD10C00536199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30F15103236BD10C00536199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		30F15105236BD10C00536199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				30F150FD236BD10900536199 /* AppDelegate.h */,
-				30F150FE236BD10900536199 /* AppDelegate.m */,
+				30F150FE236BD10900536199 /* AppDelegate.mm */,
 				30F15100236BD10C00536199 /* Assets.xcassets */,
 				30F15102236BD10C00536199 /* MainMenu.xib */,
 				30F15105236BD10C00536199 /* Info.plist */,
@@ -181,7 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30F15107236BD10C00536199 /* main.m in Sources */,
-				30F150FF236BD10900536199 /* AppDelegate.m in Sources */,
+				30F150FF236BD10900536199 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../osound;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -299,6 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../osound;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

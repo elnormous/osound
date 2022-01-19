@@ -1,4 +1,5 @@
 #import "AppDelegate.h"
+#include "Audio.hpp"
 
 @interface AppDelegate ()
 
@@ -6,6 +7,8 @@
 @end
 
 @implementation AppDelegate
+
+osound::Audio audio;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {

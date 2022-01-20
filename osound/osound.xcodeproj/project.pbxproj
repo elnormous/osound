@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3000BED22799B58A00CA7277 /* Thread.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3000BED12799B58A00CA7277 /* Thread.hpp */; };
+		3000BED52799B5BF00CA7277 /* Bit.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3000BED42799B5BF00CA7277 /* Bit.hpp */; };
 		30F46DAA2372516400884EED /* Audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F46DA82372516400884EED /* Audio.cpp */; };
 		30F46DAB2372516400884EED /* Audio.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 30F46DA92372516400884EED /* Audio.hpp */; };
 		30F46DAE237251E500884EED /* AudioDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F46DAC237251E500884EED /* AudioDevice.cpp */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		3000BEC92798700700CA7277 /* Sound.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sound.cpp; sourceTree = "<group>"; };
 		3000BECA2798700700CA7277 /* Sound.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sound.hpp; sourceTree = "<group>"; };
+		3000BED12799B58A00CA7277 /* Thread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Thread.hpp; sourceTree = "<group>"; };
+		3000BED42799B5BF00CA7277 /* Bit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bit.hpp; sourceTree = "<group>"; };
 		30F150EA236BD08700536199 /* libosound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libosound.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F46DA82372516400884EED /* Audio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Audio.cpp; sourceTree = "<group>"; };
 		30F46DA92372516400884EED /* Audio.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Audio.hpp; sourceTree = "<group>"; };
@@ -47,6 +51,22 @@
 			path = mixer;
 			sourceTree = "<group>";
 		};
+		3000BED02799B58200CA7277 /* thread */ = {
+			isa = PBXGroup;
+			children = (
+				3000BED12799B58A00CA7277 /* Thread.hpp */,
+			);
+			path = thread;
+			sourceTree = "<group>";
+		};
+		3000BED32799B5B200CA7277 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				3000BED42799B5BF00CA7277 /* Bit.hpp */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		30F150E1236BD08700536199 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +86,8 @@
 		30F15116236BD15E00536199 /* osound */ = {
 			isa = PBXGroup;
 			children = (
+				3000BED32799B5B200CA7277 /* utils */,
+				3000BED02799B58200CA7277 /* thread */,
 				3000BECD2798754900CA7277 /* mixer */,
 				30F46DA82372516400884EED /* Audio.cpp */,
 				30F46DA92372516400884EED /* Audio.hpp */,
@@ -96,6 +118,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3000BED52799B5BF00CA7277 /* Bit.hpp in Headers */,
+				3000BED22799B58A00CA7277 /* Thread.hpp in Headers */,
 				30F46DAB2372516400884EED /* Audio.hpp in Headers */,
 				30F46DAF237251E500884EED /* AudioDevice.hpp in Headers */,
 				30F46DB423726BDC00884EED /* CAAudioDevice.hpp in Headers */,

@@ -35,6 +35,7 @@ namespace osound::thread
         Thread& operator=(const Thread&) = delete;
         Thread& operator=(Thread&& other) noexcept
         {
+            if (t.joinable()) t.join();
             t = std::move(other.t);
             return *this;
         }

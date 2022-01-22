@@ -3,6 +3,7 @@
 
 #include <memory>
 #include "AudioDevice.hpp"
+#include "mixer/Mixer.hpp"
 
 namespace osound
 {
@@ -13,6 +14,7 @@ namespace osound
 
     private:
         std::unique_ptr<AudioDevice> audioDevice;
+        mixer::Mixer mixer;
     };
 }
 
